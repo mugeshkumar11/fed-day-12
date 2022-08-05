@@ -11,17 +11,21 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+.quickcontact{
+    border-bottom: solid 1px #ccc;
+}
 .quickcontact-flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-bottom: solid 1px #ccc;
+    
 }
 .contactdetails {
     display: flex;
     justify-content: left;
     padding-top: 15px;
     font-size: 18px;
+    
 }
 .contactdetails a{
     text-decoration: none;
@@ -45,8 +49,56 @@
     padding: 4px 12px;
     font-size:18px;
 }
+.contactdetails h3:hover a{
+    color: #428bca;
+
+}
+.socialconnect .logosocial:hover a{
+    color: #428bca;
+}
+.contactlogo .icofont-smart-phone{
+    padding-left: 10px; 
+}
 .header-flex {
     display: flex;
+    flex-wrap: wrap;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-flex .mamba-logo h2 a{
+    color: #1c5c93;
+    text-decoration: none;
+    font-size: 28px;
+    margin: 0;
+    padding: 10px 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.navbar a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: #5c768d;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.navbar li:hover a{
+    color:#428bca;
+    
 }
 .banner{
     height: auto;
@@ -1013,7 +1065,7 @@ form .formgroup {
 .footericon1 a:hover{
     background-color:#007aff;
 }
-.footer-box span:hover{
+.footer-box ul span:hover{
     color: #007aff;
 }
 .legal {
