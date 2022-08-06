@@ -480,10 +480,27 @@
 .portfoliocontent p{
     display: flex;
     text-align: center;
-    padding-bottom: 80px;
     font-size:18px;
     font-weight: 400;
     color: #444;
+    padding-bottom: 30px;
+}
+.buttonport {
+    text-align: center;
+    justify-content: center;
+    height: 40px;
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+.buttonport button {
+    margin: 0 15px 15px 0;
+    padding:10px 20px ;
+    background: #fff;
+    border: none;
+    font-size: 12px;
+    color: #444;
+    border-radius: 4px;
+    
 }
 .portfolio-list  {
        display: flex;
