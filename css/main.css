@@ -251,7 +251,7 @@
 .gift:hover .gift-logo{
     background-color: #428bca;
 }
-.gift:hover h3{
+.gift h3:hover {
     color: #428bca;
 }
 .print a {
