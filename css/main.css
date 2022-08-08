@@ -245,7 +245,7 @@
 .finger:hover .logo-finger{
     background-color: #428bca;
 }
-.finger:hover h3{
+.finger h3:hover {
     color: #428bca;
 }
 .gift:hover .gift-logo{
@@ -800,7 +800,6 @@
     color: #444;
     margin-bottom: 30px;
 }
-
 .contact-flex {
     display: flex;
     flex-wrap: wrap;
@@ -831,9 +830,8 @@
     background-color: #fff;
     text-align: center;
     padding: 30px;
-    box-shadow: 0px 0px 30px  rgb(214 215 216 / 60%);
-    
-    
+    box-shadow: 0px 0px 30px  rgb(214 215 216 / 60%);  
+
 }
 .contacthead h2 {
     display: flex;
